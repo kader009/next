@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
+
 export default function Home() {
   const apple =  (item) =>{
     alert(item)
@@ -23,7 +24,13 @@ export default function Home() {
     <br />
     <br />
     <br />
-    <Link href='/about/about1'><button>with link</button></Link>
+    <Link href='/blog'><button>with link</button></Link>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
     </main> 
   );
 }
